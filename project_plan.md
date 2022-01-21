@@ -17,12 +17,26 @@ To answer these questions, I am conducting a series of listening tasks online. T
 --------------
 For this study, I aim to run three types of listening tasks; labeling, goodness-judgement, and AX-discrimination task. In order to create acoustic stimuli that will be used for the three listening tasks, I am using a base sound (CV9_VOT40_F230_edit_int.wav). With this base token, I will create three F0 continua, each with VOT of value of 5, 25, and 45ms.  
 
-**The base sound**  
-The base sound [CV9_VOT40_F230.wav](CV9_VOT40_F230.wav)[^1] was created by splicing lip apperture and vowel portion from [bot.wav](bot.wav)[^2] to VOT portion from [pot.wav](pot.wav)[^3] with two additional intensity modifications.  
+**Creating the base syllable**  
 
-_[^1] CV9_VOT40_F230.wav is CV99_VOT40_F230_edit_int.wav from Comps1 project_  
-_[^2]bot.wav is bot1.wav from Comps1 project_  
-_[^3]pot.wav is pot1.wav from Comps1 project_  
+Step 1: splicing  
+The base syllable was created by manually splicing VOT portion from 'pop' to the lip apperture and vowel portion from 'bot'.  
+input: [bot.wav](bot.wav)^[bot1.wav in Comps1 project], [pot.wav](pot.wav)^[pot1.wav in Comps1 project]  
+output: CV9_VOT40_F230_edit.wav
+
+Step 2: modifying intensity  
+The spliced sound was then further modified for its intensity to achieve the optimal naturalness. An intensity tier was created that maintained the same intensity (1dB) for the entire stimuli until the 75% point of the vowel, then fell linearly to -9dB for the remaining 25% of the vowel portion. The intensity tier and the spliced sound were multiplied.  
+input: CV9_VOT40_F230_edit.wav, [CV_decreasing_intensity_F230.IntensityTier](CV_decreasing intensity.IntensityTier)   
+output: resulting [CV9_VOT40_F230_edit_int.wav](CV9_VOT40_F230_edit_int.wav) 
+
+**Modulating VOT**  
+For the current project, syllables with three different VOT values are needed. The base syllable CV has 
+Three base sounds are needed: 45, 25, and 5ms VOT 
+input: [CV9_VOT40_F230_edit_int.wav](CV9_VOT40_F230_edit_int.wav),  
+output: 
+
+**F0 continuum**  
+I created F0 continua by modulating a base sound with a textgrid using a praat script. The base sound [CV9_VOT40_F230.wav](CV9_VOT40_F230.wav) and its textgrid [CV9_VOT40_F230.textgrid]([CV9_VOT40_F230.textgrid])^[CV9_VOT40_F230_edit.textgrid in Comps1 project] were used. Two praat sciprts were used depending on the range of F0;[ChangeF0_under230.praat](ChangeF0_under230.praat) was used to create stimuli over 200-230hz. [ChangeF0_above230.praat](ChangeF0_above230.praat) was used to create stimuli over 230-260hz. 
 
 
 
