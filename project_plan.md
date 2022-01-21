@@ -17,4 +17,13 @@ To answer these questions, I am conducting a series of listening tasks online. T
 --------------
 For this study, I aim to run three types of listening tasks; labeling, goodness-judgement, and AX-discrimination task. In order to create acoustic stimuli that will be used for the three listening tasks, I am using a base sound (CV9_VOT40_F230_edit_int.wav). With this base token, I will create three F0 continua, each with VOT of value of 5, 25, and 45ms.  
 
-**About the base sound** 
+**The base sound**  
+The base sound [CV9_VOT40_F230.wav](CV9_VOT40_F230.wav)* was created by splicing lip apperture and vowel portion from [bot.wav](bot.wav)** to VOT portion from [pot.wav](pot.wav)*** with two additional intensity modifications.  
+
+_CV9_VOT40_F230.wav is CV99_VOT40_F230_edit_int.wav from Comps1 project_  
+_bot.wav is bot1.wav from Comps1 project_  
+_pot.wav is pot1.wav from Comps1 project_  
+
+
+
+
