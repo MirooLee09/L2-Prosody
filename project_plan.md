@@ -21,26 +21,29 @@ For this study, I aim to run three types of listening tasks; labeling, goodness-
 
 Step 1: splicing  
 The base syllable was created by manually splicing VOT portion from 'pop' to the lip apperture and vowel portion from 'bot'.  
-input: [bot.wav](bot.wav)^[bot1.wav in Comps1 project], [pot.wav](pot.wav)^[pot1.wav in Comps1 project]  
+input: [bot.wav](wav/bot.wav)^[bot1.wav in Comps1 project], [pot.wav](wav/pot.wav)^[pot1.wav in Comps1 project]  
 output: CV9_VOT45_F230_edit.wav
 
 Step 2: modifying intensity  
 The spliced sound was then further modified for its intensity to achieve the optimal naturalness. An intensity tier was created that maintained the same intensity (1dB) for the entire stimuli until the 75% point of the vowel, then fell linearly to -9dB for the remaining 25% of the vowel portion. The intensity tier and the spliced sound were multiplied.  
-input: CV9_VOT45_F230_edit.wav, [CV_decreasing_intensity_F230.IntensityTier](CV_decreasing intensity_F230.IntensityTier)   
-output: resulting [CV9_VOT45_F230.wav](CV9_VOT45_F230.wav) 
+input: CV9_VOT45_F230_edit.wav, [CV_decreasing_intensity_F230.IntensityTier](textgrid_etc/CV_decreasing intensity_F230.IntensityTier)   
+output: resulting [CV9_VOT45_F230.wav](wav/CV9_VOT45_F230.wav) 
 
 **Modulating VOT**  
 For the current project, syllables with three different VOT values are needed. The base syllable CV has 
 Three base sounds are needed: 45, 25, and 5ms VOT 
-input: [CV9_VOT45_F230.wav](CV9_VOT45_F230.wav),[ChangeVOT_v4.praat](ChangeVOT_v4.praat)  
-output: [CV9_VOT25_F230.wav](CV9_VOT25_F230.wav), [CV_VOT1_F230.wav](CV9_VOT1_F230.wav)
+input: [CV9_VOT45_F230.wav](wav/CV9_VOT45_F230.wav),[ChangeVOT_v4.praat](scripts/ChangeVOT_v4.praat)  
+output: [CV9_VOT25_F230.wav](wav/CV9_VOT25_F230.wav), [CV_VOT1_F230.wav](wav/CV9_VOT1_F230.wav)
 
 **F0 continuum**  
 I created F0 continua by modulating a base sound with a textgrid using a praat script. The base sound  and its textgrid  were used. 
-input: [CV9_VOT45_F230.wav](CV9_VOT45_F230.wav)  
-[CV9_VOT45_F230.textgrid]([CV9_VOT45_F230.textgrid])^[CV9_VOT40_F230_edit.textgrid in Comps1 project]  
-[ChangeF0.praat](ChangeF0.praat)  
-output: CV9_VOT45_F200(~260).wav, CV9_VOT25_F200(~260).wav, CV9_VOT1_F200(~260).wav
+input: [CV9_VOT45_F230.wav](wav/CV9_VOT45_F230.wav)  
+[CV9_VOT45_F230.textgrid]([textgrid_etc/CV9_VOT45_F230.textgrid])^[CV9_VOT40_F230_edit.textgrid in Comps1 project]  
+[ChangeF0.praat](scripts/ChangeF0.praat)  
+output: CV9_VOT45_F200(~260).wav, CV9_VOT25_F200(~260).wav, CV9_VOT1_F200(~260).wav  
+
+**Configuring the tasks on Gorilla experiment builder**
+
 
 
 
