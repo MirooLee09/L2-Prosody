@@ -36,8 +36,12 @@ input: [CV9_VOT45_F230.wav](CV9_VOT45_F230.wav),[ChangeVOT_v4.praat](ChangeVOT_v
 output: [CV9_VOT25_F230.wav](CV9_VOT25_F230.wav), [CV_VOT1_F230.wav](CV9_VOT1_F230.wav)
 
 **F0 continuum**  
-I created F0 continua by modulating a base sound with a textgrid using a praat script. The base sound [CV9_VOT45_F230.wav](CV9_VOT45_F230.wav) and its textgrid [CV9_VOT45_F230.textgrid]([CV9_VOT45_F230.textgrid])^[CV9_VOT40_F230_edit.textgrid in Comps1 project] were used.  A praat script [ChangeF0_under230.praat](ChangeF0_under230.praat) was used . 
-input: 
+I created F0 continua by modulating a base sound with a textgrid using a praat script. The base sound  and its textgrid  were used. 
+input: [CV9_VOT45_F230.wav](CV9_VOT45_F230.wav)  
+[CV9_VOT45_F230.textgrid]([CV9_VOT45_F230.textgrid])^[CV9_VOT40_F230_edit.textgrid in Comps1 project]  
+[ChangeF0.praat](ChangeF0.praat)  
+output: CV9_VOT45_F200(~260).wav, CV9_VOT25_F200(~260).wav, CV9_VOT1_F200(~260).wav
+
 
 
 
