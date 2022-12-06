@@ -25,5 +25,5 @@ Completed data cleaning (dataCleaning_thesis.Rmd)
 Completed converting discrimination data to d' (dPrimeDataPrep_thesis.Rmd)
 Completed preliminary analysis on raw labeling data (Model_thesis.Rmd)  
 Completed post-hoc on raw labeling data models (PostHoc_thesis.Rmd) 
-Completed preliminary analysis on reliance score
+Completed preliminary analysis on reliance score (RelianceScore_thesis.Rmd) Created a document for finalized analysis (Analysis_thesis.Rmd)
 
