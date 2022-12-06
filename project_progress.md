@@ -15,4 +15,15 @@ Completed creating audio stimuli. Upload recorded instructions. Convert wav file
 
 6-30-2022
 ----------------
-Completed collecting data (32 bilinguals 31 monolinguals)
+Completed collecting data (32 bilinguals 31 monolinguals)  
+
+12-6-2022  
+----------------
+Started data analysis. 
+Completed data compiling (dataCompiling_thesis.Rmd)  
+Completed data cleaning (dataCleaning_thesis.Rmd)  
+Completed converting discrimination data to d' (dPrimeDataPrep_thesis.Rmd)
+Completed preliminary analysis on raw labeling data (Model_thesis.Rmd)  
+Completed post-hoc on raw labeling data models (PostHoc_thesis.Rmd) 
+Completed preliminary analysis on reliance score
+
