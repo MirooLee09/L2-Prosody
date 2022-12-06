@@ -11,4 +11,8 @@ Updated praat script and wav files for stimuli preparation.
 
 1-31-2022
 ----------------
-Completed creating audio stimuli. Started configuring the experimental tasks on Gorilla.
+Completed creating audio stimuli. Upload recorded instructions. Convert wav files to mp3, which is a supported audio file format on Gorilla. Started configuring the experimental tasks on Gorilla.  
+
+6-30-2022
+----------------
+Completed collecting data (32 bilinguals 31 monolinguals)
