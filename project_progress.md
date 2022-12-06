@@ -22,8 +22,7 @@ Completed collecting data (32 bilinguals 31 monolinguals)
 Started data analysis. 
 Completed data compiling (dataCompiling_thesis.Rmd)  
 Completed data cleaning (dataCleaning_thesis.Rmd)  
-Completed converting discrimination data to d' (dPrimeDataPrep_thesis.Rmd)
-Completed preliminary analysis on raw labeling data (Model_thesis.Rmd)  
+Completed converting discrimination data to d' (dPrimeDataPrep_thesis.Rmd)  Completed preliminary analysis on raw labeling data (Model_thesis.Rmd)  
 Completed post-hoc on raw labeling data models (PostHoc_thesis.Rmd) 
-Completed preliminary analysis on reliance score (RelianceScore_thesis.Rmd) Created a document for finalized analysis (Analysis_thesis.Rmd)
+Completed preliminary analysis on reliance score (RelianceScore_thesis.Rmd)  Created a document for finalized analysis (Analysis_thesis.Rmd)
 
